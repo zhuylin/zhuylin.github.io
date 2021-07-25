@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>LateX_使用</title>
+      <link href="/zhuylin.github.io/2021/07/22/blog10_LateX1/"/>
+      <url>/zhuylin.github.io/2021/07/22/blog10_LateX1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="LaTeX-基本使用"><a href="#LaTeX-基本使用" class="headerlink" title="$\LaTeX{}$基本使用"></a>$\LaTeX{}$基本使用</h2><h3 id="一、文档"><a href="#一、文档" class="headerlink" title="一、文档"></a>一、文档</h3><p>代码的第一行声明了文档的类型，称为类。类控制文档的整体外观，不同类型的文档需要选择不同的类，比如article、report、babel或book。<br>在 \begin {document} 和 \end {document} 这两个标记之间写入文档内容。这部分就是文档的主体 。</p><h4 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[12pt, letterpaper]&#123;article&#125;//设置字体大小和纸张大小，定义文档类型</span><br><span class="line">\usepackage[utf8]&#123;inputenc&#125;//指定文档编码</span><br></pre></td></tr></table></figure><h4 id="添加标题、作者和日期"><a href="#添加标题、作者和日期" class="headerlink" title="添加标题、作者和日期"></a>添加标题、作者和日期</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">\title&#123;First document&#125;</span><br><span class="line">\author&#123;Lynn Jute \thanks&#123;funded by the Overleaf team&#125;&#125;</span><br><span class="line">\today  //在编译文档时自动更新日期,或使用\date&#123;M Y&#125;</span><br><span class="line"></span><br><span class="line">\maketitle  //在文档上打印这些信息。这条命令应该写在文档主体中想要打印标题的位置。</span><br><span class="line">...</span><br><span class="line">//document</span><br><span class="line">...</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p>效果：</p><p>** 参考文章 **：<br>    - <a href="https://imztj.cn/?p=3073">https://imztj.cn/?p=3073</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> LateX_learning </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LateX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小工具_转换单词/变量</title>
       <link href="/zhuylin.github.io/2021/07/21/blog9_tool_changeWord/"/>
       <url>/zhuylin.github.io/2021/07/21/blog9_tool_changeWord/</url>
