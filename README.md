@@ -1,1 +1,1 @@
-个人技术博客网站：lynnjute.top
+个人技术博客网站：lynnjute.icu
